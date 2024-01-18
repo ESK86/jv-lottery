@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Ball extends ColorSupplier {
-    private final Colors color;
+    private String color;
     private final int number;
 
     public Ball(int number) {
